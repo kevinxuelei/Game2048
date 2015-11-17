@@ -19,6 +19,8 @@
 		C2DDCD661B8045E900001C90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DDCD4E1B8045E900001C90 /* UIKit.framework */; };
 		C2DDCD6E1B8045E900001C90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2DDCD6C1B8045E900001C90 /* InfoPlist.strings */; };
 		C2DDCD701B8045E900001C90 /* Game2048Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DDCD6F1B8045E900001C90 /* Game2048Tests.m */; };
+		C2DDCD7B1B80460A00001C90 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DDCD7A1B80460A00001C90 /* RootViewController.m */; };
+		C2EDF4A41B8964FA00915ABC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = C2EDF4A31B8964FA00915ABC /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		C2DDCD6B1B8045E900001C90 /* Game2048Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Game2048Tests-Info.plist"; sourceTree = "<group>"; };
 		C2DDCD6D1B8045E900001C90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2DDCD6F1B8045E900001C90 /* Game2048Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game2048Tests.m; sourceTree = "<group>"; };
+		C2DDCD791B80460A00001C90 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C2DDCD7A1B80460A00001C90 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C2EDF4A31B8964FA00915ABC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +112,11 @@
 		C2DDCD501B8045E900001C90 /* Game2048 */ = {
 			isa = PBXGroup;
 			children = (
+				C2EDF4A31B8964FA00915ABC /* background.png */,
 				C2DDCD591B8045E900001C90 /* AppDelegate.h */,
 				C2DDCD5A1B8045E900001C90 /* AppDelegate.m */,
+				C2DDCD791B80460A00001C90 /* RootViewController.h */,
+				C2DDCD7A1B80460A00001C90 /* RootViewController.m */,
 				C2DDCD5C1B8045E900001C90 /* Images.xcassets */,
 				C2DDCD511B8045E900001C90 /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2DDCD551B8045E900001C90 /* InfoPlist.strings in Resources */,
+				C2EDF4A41B8964FA00915ABC /* background.png in Resources */,
 				C2DDCD5D1B8045E900001C90 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +250,7 @@
 			files = (
 				C2DDCD5B1B8045E900001C90 /* AppDelegate.m in Sources */,
 				C2DDCD571B8045E900001C90 /* main.m in Sources */,
+				C2DDCD7B1B80460A00001C90 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +449,7 @@
 				C2DDCD751B8045E900001C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2DDCD761B8045E900001C90 /* Build configuration list for PBXNativeTarget "Game2048Tests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +458,7 @@
 				C2DDCD781B8045E900001C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
